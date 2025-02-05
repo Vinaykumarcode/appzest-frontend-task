@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Register from './components/register/Register'
 import Login from './components/login/Login'
-
+import './index.css';
 import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Cards from './components/Cards'
