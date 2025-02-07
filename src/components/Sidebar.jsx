@@ -6,7 +6,7 @@ function Sidebar({ home, setHome }) {
       <div className="sm:w-full sm:max-w-[18rem]">
         <input type="checkbox" id="sidebar-mobile-fixed" className="sidebar-state" />
         <label htmlFor="sidebar-mobile-fixed" className="sidebar-overlay"></label>
-        <aside className="sidebar sidebar-fixed-left sidebar-mobile h-full justify-start max-sm:fixed max-sm:-translate-x-full">
+        <aside className="sidebar max-w-10 sidebar-fixed-left sidebar-mobile h-full justify-start max-sm:fixed max-sm:-translate-x-full">
           <section className="sidebar-title items-center p-4">
             <svg fill="none" height="42" viewBox="0 0 32 32" width="42" xmlns="http://www.w3.org/2000/svg">
               <rect height="100%" rx="16" width="100%"></rect>
@@ -61,7 +61,7 @@ function Sidebar({ home, setHome }) {
           </section>
         </aside>
       </div>
-      <div className="flex w-full flex-col p-4">
+      <div className="flex w-full flex-col items-center p-4">
         <div className="w-fit">
           <label htmlFor="sidebar-mobile-fixed" className="btn-primary btn sm:hidden">
             <RxHamburgerMenu />
