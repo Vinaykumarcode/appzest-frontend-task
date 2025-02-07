@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { RxHamburgerMenu } from "react-icons/rx";
 function Sidebar({ home, setHome }) {
   return (
     <div className="flex flex-row sm:gap-3">
@@ -64,7 +64,7 @@ function Sidebar({ home, setHome }) {
       <div className="flex w-full flex-col p-4">
         <div className="w-fit">
           <label htmlFor="sidebar-mobile-fixed" className="btn-primary btn sm:hidden">
-            Open Sidebar
+            <RxHamburgerMenu />
           </label>
         </div>
       </div>
