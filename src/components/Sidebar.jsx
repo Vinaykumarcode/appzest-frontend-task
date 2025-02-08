@@ -7,7 +7,7 @@ function Sidebar({ home, setHome }) {
         <input type="checkbox" id="sidebar-mobile-fixed" className="sidebar-state" />
         <label htmlFor="sidebar-mobile-fixed" className="sidebar-overlay"></label>
         <aside className="sidebar max-w-18 sidebar-mobile h-full justify-start max-sm:fixed max-sm:-translate-x-full">
-          <section className="sidebar-title items-center p-4">
+          {/* <section className="sidebar-title items-center p-4">
             <svg fill="none" height="42" viewBox="0 0 32 32" width="42" xmlns="http://www.w3.org/2000/svg">
               <rect height="100%" rx="16" width="100%"></rect>
               <path
@@ -21,7 +21,7 @@ function Sidebar({ home, setHome }) {
               <span>Appzest</span>
              
             </div>
-          </section>
+          </section> */}
           <section className="sidebar-content">
             <nav className="menu rounded-md">
               <section className="menu-section px-4">
