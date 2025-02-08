@@ -13,7 +13,7 @@ defaults.responsive = true;
 function Cards() {
     const [home, setHome] = useState("Dashboard");
     return (
-        <div className="flex flex-col lg:flex-row justify-between">
+        <div className="flex flex-col sm:flex-row justify-between">
             <Sidebar className="fixed z-1" home={home} setHome={setHome} />
             {
                 home === "Dashboard" ?
