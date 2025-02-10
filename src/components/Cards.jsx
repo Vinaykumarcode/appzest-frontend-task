@@ -19,7 +19,7 @@ function Cards() {
                 home === "Dashboard" ?
                     (<div className="cards-div h-screen flex flex-col items-center">
             <div className="card-div-with-sideBar flex">
-                <div className='cards-component flex flex-wrap items-center justify-center p-4 gap-4 sm:gap-6'>
+                <div className='cards-component flex flex-wrap justify-center xl:justify-start items-center p-4 gap-4 sm:gap-6'>
                     {/* User Card */}
                     <div className="card card-image-cover relative max-w-xs w-60 sm:max-w-sm md:max-w-md lg:max-w-xs xl:max-w-sm">
                         <div className="card-body">
