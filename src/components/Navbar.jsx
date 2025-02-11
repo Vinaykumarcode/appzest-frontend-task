@@ -43,7 +43,7 @@ function Navbar() {
 						<Link className="dropdown-item text-sm" to="/">Home</Link>
 						<Link tabIndex="-1" className="dropdown-item text-sm" to="/register">Register</Link>
 						<Link tabIndex="-1" className="dropdown-item text-sm" to="/login">Login</Link>
-                        <button className="btn btn-primary" onClick={printPage}>Print</button>
+                      
 					</div>
 				</div>
 			</div>
